@@ -39,6 +39,7 @@ const router = createBrowserRouter([
       { path: "explorecyber", element: <ExporeCyber /> },
       { path: "satellite-security", element: <SatelliteSecurity /> },
       { path: "blockchain-solution", element : <ExploreBlockchain /> },
+      { path: "vapt-services", element: <VAPTServices /> },
       // { path: "soma", element: <SomaDetails /> },
       { path: "coming-soon", element: <ComingSoon /> }, // NEW: Coming Soon route
       { path: "*", element: <NotFound /> },            // NEW: 404 Catch-all route (MUST BE LAST)
