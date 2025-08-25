@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
-/* Hero Section - Full Viewport */
+/* Hero Section - Proper spacing with navbar */
 .hero-section {
-  height: 100vh;
-  min-height: 100vh;
+  min-height: calc(100vh - 120px);
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* center vertically */
-  align-items: center; /* center horizontally */
+  justify-content: center;
+  align-items: center;
   position: relative;
   z-index: 1;
   background: transparent;
+  padding: 2rem 0;
   margin-bottom: 0 !important;
 }
 
@@ -20,9 +20,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 40vh;
-  /* default: keep hero centered on desktop; mobile adjustments applied in media queries */
-  margin-top: 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 /* Global Reset & Base Styles - Add this if not already in index.css */
@@ -49,19 +50,11 @@ body {
   position: relative;
   min-height: 100vh;
   width: 100%;
-  /* Keep overflow: hidden here if it's strictly for containing background animations,
-     but be aware it will clip any content that overflows this container.
-     If content is overflowing, consider moving the overflow:hidden to a more specific
-     wrapper for background animations only. */
-  overflow: hidden; /* Prevent internal overflow */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background: #0a0a0a;
   color: #ffffff;
   font-family: "Inter", sans-serif;
-  padding: 0rem; /* This is fine */
+  margin: 0;
+  padding: 0;
 }
 
 /* Background Animation */
