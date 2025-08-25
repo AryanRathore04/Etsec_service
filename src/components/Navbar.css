@@ -16,11 +16,13 @@
   border: 1px solid rgba(60, 70, 100, 0.18);
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
   backdrop-filter: blur(16px) saturate(120%);
-  margin: 0.4rem auto; /* tighter vertical gap on desktop */
-  padding: 0.8rem 2rem; /* slightly reduced horizontal padding to keep proportions */
+  margin: 1rem auto;
+  padding: 0.8rem 2rem;
   max-width: 700px;
-  position: sticky;
-  top: 1rem; /* bring sticky position closer to top */
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 999;
   display: flex;
   align-items: center;
