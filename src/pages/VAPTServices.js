@@ -4,33 +4,9 @@ import { Star, Shield, Target, Lock, Search, AlertTriangle, CheckCircle } from "
 
 const VAPTServices = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    company: "",
-    country: "",
-    message: ""
-  });
-
   useEffect(() => {
     setIsVisible(true);
   }, []);
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("VAPT Quote Request:", formData);
-    // Handle form submission here
-  };
 
   const features = [
     {
