@@ -163,7 +163,7 @@ const VAPTServices = () => {
           <div className="cta-content">
             <h2>Ready to Secure Your Business?</h2>
             <p>Get started with a comprehensive VAPT assessment today and protect your organization from cyber threats.</p>
-            <button className="cta-button" onClick={() => document.querySelector('.quote-form-container').scrollIntoView({ behavior: 'smooth' })}>
+            <button className="cta-button" onClick={() => window.location.href = '/contact'}>
               Get Your VAPT Quote
             </button>
           </div>
