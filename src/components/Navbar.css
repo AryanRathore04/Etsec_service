@@ -19,10 +19,7 @@
   margin: 1rem auto;
   padding: 0.8rem 2rem;
   max-width: 700px;
-  position: fixed;
-  top: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
   z-index: 999;
   display: flex;
   align-items: center;
