@@ -246,7 +246,7 @@ function Home() {
               </p>
               <button
                 className="cta-button primary"
-                onClick={() => navigate("/contact")}
+                onClick={() => navigate("/vapt-services")}
               >
                 Request VAPT
               </button>
