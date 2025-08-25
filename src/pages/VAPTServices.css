@@ -374,13 +374,6 @@
     font-size: 2.2rem;
   }
   
-  .quote-form-container {
-    padding: 30px;
-  }
-  
-  .form-row {
-    grid-template-columns: 1fr;
-  }
   
   .section-title {
     font-size: 2rem;
