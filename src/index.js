@@ -20,6 +20,7 @@ import FAQ from './pages/FAQ';
 import ExporeCyber from './pages/CybersecurityServices';
 import SatelliteSecurity from './pages/SatelliteSecurity';
 import ExploreBlockchain from './pages/ExploreBlockchain';
+import VAPTServices from './pages/VAPTServices';
 // import SomaDetails from './pages/SomaDetails';
 import ComingSoon from './pages/ComingSoon'; // NEW: Import ComingSoon
 import NotFound from './pages/NotFound';     // NEW: Import NotFound
